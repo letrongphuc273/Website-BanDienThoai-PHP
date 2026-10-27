@@ -1,0 +1,155 @@
+﻿* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    width: 900px;
+    min-height: 0;
+    margin: 20px auto;
+    border: 0.5px solid black;
+    background: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(206, 226, 236);
+    text-align: center;
+    line-height: 90px;
+    border-bottom: 0.5px solid black;
+}
+
+.nav {
+    width: 100%;
+    min-height: 50px;
+    padding: 8px 12px;
+    border-bottom: 0.5px solid black;
+    font-size: 14px;
+}
+
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 110px;
+    height: 28px;
+    padding: 4px 6px;
+}
+
+.login-form input[type="submit"] {
+    height: 28px;
+    padding: 0 10px;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-auth {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    border: 1px solid #666;
+    background: #f7f7f7;
+    color: #000;
+    text-decoration: none;
+}
+
+.section {
+    flex: 1;
+    width: 25%;
+    height: auto;
+    min-height: 100%;
+    float: left;
+    border-bottom: 0.5px solid black;
+}
+
+.section h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.section ul {
+    padding: 0 20px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aside {
+    width: 75%;
+    height: auto;
+    border-left: 0.5px solid black;
+    float: left;
+    border-bottom: 0.5px solid black;
+    min-height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(206, 226, 236);
+    clear: both;
+    text-align: center;
+    line-height: 56px;
+}
+
+.sectionhero {
+    display: flex;
+    align-items: stretch;
+    min-height: 853px;
+}
+
+.account-box {
+    margin: 16px 20px 0;
+    border: 1px solid #d8d8d8;
+    background: #fafafa;
+    padding: 10px 12px;
+    line-height: 1.6;
+}
